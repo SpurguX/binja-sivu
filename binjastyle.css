@@ -1,0 +1,241 @@
+body {
+	font-family: Georgia, serif; 
+}
+
+h1, h2, h3, h4, h5 {
+margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+	}
+
+ img {
+	 display: inline-block;
+	 vertical-align: top;
+ } 
+/*
+  ========================================
+  Header
+  ========================================
+*/	
+	
+
+.head  {
+	background-color: #D7EBD7;
+	border-width: 35px 0 0 0;
+	border-style: solid;
+	border-color: #033803;
+	margin: -30px -15px 80px -15px;
+	padding-top: 30px;
+	height: 220px;
+	box-shadow: 0 3px 0 0  #F2F8F2;
+}
+
+.head-wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-image: url("binjasolutionslogo.jpg");
+	height: 120px;
+	width: 320px;
+	border-radius: 20px;
+	float: right;
+	display: inline-block;
+}
+
+.navbar {
+	float: left;
+	display: inline-block;
+	padding-top: 74px;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+	height: 120px;
+	margin: 0;
+	vertical-align: bottom;
+}
+
+.navbar li {
+	display: inline-block;
+	height: 46px;
+	padding: 10px;
+	margin: 0 10px 0 0;
+	font-size: 1.4em;
+	border-width: 1px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #F2F8F2;
+	transition: background-color 0.2s ease;
+}
+
+.navbar li:hover {
+	background-color: #B1D9B1;
+}
+
+.navbar a {
+	display: block;
+	width: 90px;
+	text-align: center;
+	color: #544036;
+	font-weight: 500;
+}
+
+/*
+  ========================================
+  Page
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 1024px;
+}
+  
+  
+
+ 
+  /* 
+  Using a left and right margin of auto 
+  in conjunction with this width lets the browser 
+  automatically figure out equal left and right margins 
+  for the element, thus centering it on the page.
+  */
+  
+
+
+/*
+  ========================================
+  Intro/Home
+  ========================================
+*/
+
+
+.intro {
+	height: 400px;
+	margin-bottom: 60px;	
+}
+
+
+.binja {
+	float: right;
+	width: 40%;
+	display: inline-block;
+}
+
+.aside {
+	float: left;
+	width: 57%;
+	display: inline-block;
+	margin-left: 0;
+	padding-right: 50px;
+	height: inherit;
+	letter-spacing: 1px;
+}
+
+.aside p {
+	font-size: 1.5em;
+	margin: 20PX 0PX;
+}
+
+q {
+	font-style: italic;
+}
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+.about {
+	margin: 0 -15px 0 -15px;
+	background-color: #D7EBD7;
+	box-shadow: 0 -3px 0 0 #F2F8F2;
+}
+
+.wrapper1024 {
+	height: 320px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.about .heading {
+	float: left;
+	margin-top: 60px;
+	display: inline-block;
+	font-size: 1.4em;
+	width: 200px;
+}
+
+.about-text {
+	float: right;
+	margin-top: 60px;
+	display: inline-block;
+	width: 824px;
+	font-size: 1.1em;
+}
+
+.about-text p {
+	margin: 0 0 16px 0;
+	
+}
+
+
+/*
+  ========================================
+  Products
+  ========================================
+*/
+.products {
+	margin: 0 -15px 0 -15px;
+	height: 640px;
+	box-shadow: 0 -3px 0 0 #F2F8F2; 
+
+}
+
+.products .heading {
+	float: left;
+	margin-top: 60px;
+	display: inline-block;
+	font-size: 1.4em;
+	width: 200px;
+}
+
+.products-wrapper {
+	float: right;
+	margin-top: 60px;
+	display: inline-block;
+	width: 824px;
+}
+
+.product {
+	width: 186px;
+	height: 200px;
+	display: inline-block;
+	margin: 0 10px;
+	
+}
+
+.row1,
+.row2 {
+	height: 200px;
+}
+
+.row2 {
+	margin-top: 10px;
+}
